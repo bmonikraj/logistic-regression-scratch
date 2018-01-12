@@ -8,7 +8,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.io import loadmat
 from sklearn.linear_model import LogisticRegression
-d = loadmat("D:/STUDY - IMPORTANT/COMPUTER/Coursera-Machine Learning -By Andrew Ng/VIII. Neural Networks Representation (Week 4)/ex3/ex3/ex3data1.mat")
+d = loadmat("path/to/ex3data1.mat")
 
 X = d['X']
 Y = d['y']
